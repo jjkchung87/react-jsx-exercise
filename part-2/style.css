@@ -1,0 +1,22 @@
+/* Styling for elements with the class 'tweet' */
+.tweet {
+  /* Add a 1px solid border with the color #0099CC */
+  border: 1px solid #0099CC;
+  /* Apply a 5px border-radius for rounded corners */
+  border-radius: 5px;
+  /* Add 20px top and bottom margin and 20% left and right margin */
+  margin: 20px 20%;
+  /* Add 20px of padding inside the element */
+  padding: 20px;
+}
+
+/* Styling for elements with the classes 'username' and 'date' */
+.username,
+.date {
+  /* Change the text color to a lighter gray (#999) */
+  color: #999;
+  /* Display elements as inline-block to allow them to appear next to each other */
+  display: inline-block;
+  /* Add 0 top and bottom margin and 10px left and right margin */
+  margin: 0 10px;
+}
